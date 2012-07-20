@@ -26,7 +26,7 @@ def getStocks():
         current_price = raw_input("What is the current price? ")
         current_prices.append(current_price)
         x = x + 1
-    filter = getFilter() 
+    filter = getFilter()
     return
 
 def getFilter():
